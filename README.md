@@ -4,6 +4,10 @@
 ```
 docker run hello-world
 ```
+> ver documentación
+```
+docker run -h
+```
 
 > mostrar los contenedores
 > 
