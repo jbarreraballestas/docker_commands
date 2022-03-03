@@ -44,3 +44,17 @@ docker rm <ID o nombre>
 ```
 docker container prune
 ```
+
+> corre un contenedor ubuntu pero lo deja apagado
+```
+docker run ubuntu
+```
+
+> corre un contenedor ubuntu y entra al shell de ubuntu
+>
+> -i: interactivo
+> 
+> -t: abre la consola
+```
+docker run -it ubuntu
+```
