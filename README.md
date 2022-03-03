@@ -11,13 +11,13 @@ docker run hello-world
 > 
 > -f, --filter filter   Filter output based on conditions provided
 > 
->     --format string   Pretty-print containers using a Go template
+> --format string   Pretty-print containers using a Go template
 >     
 > -n, --last int        Muestra los n últimos contenedores creados (todos los estados) (por defecto -1)
 > 
 > -l, --latest          Muestra el último contenedor creado (todos los estados)
 > 
->     --no-trunc        Don't truncate output
+> --no-trunc        Don't truncate output
 >     
 > -q, --quiet           Muestro solo los IDs de los contenedores
 > 
