@@ -5,19 +5,29 @@
 docker run hello-world
 ```
 
-> listar los contenedores activos
-```
-docker ps
-```
-
-> listar todos los contenedores
+> mostrar los contenedores opciones
+> -a, --all             Mostrar todos los contenedores (por defecto solo muestra los que están corriendo)
+> 
+> -f, --filter filter   Filter output based on conditions provided
+> 
+>     --format string   Pretty-print containers using a Go template
+>     
+> -n, --last int        Muestra los n últimos contenedores creados (todos los estados) (por defecto -1)
+> 
+> -l, --latest          Muestra el último contenedor creado (todos los estados)
+> 
+>     --no-trunc        Don't truncate output
+>     
+> -q, --quiet           Muestro solo los IDs de los contenedores
+> 
+> -s, --size            Mostrar peso total de los archivos
 ```
 docker ps -a
 ```
 
 > mostrar el detalle completo de un contenedor por su id
 ```
-docker inspect <containe ID> 
+docker inspect <container ID> 
 ```
 
 > mostrar el detalle completo de un contenedor por su nombre
