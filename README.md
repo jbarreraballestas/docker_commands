@@ -6,6 +6,7 @@ docker run hello-world
 ```
 
 > mostrar los contenedores opciones
+> 
 > -a, --all             Mostrar todos los contenedores (por defecto solo muestra los que están corriendo)
 > 
 > -f, --filter filter   Filter output based on conditions provided
