@@ -66,10 +66,16 @@ docker run ubuntu
 ```
 
 > corre un contenedor ubuntu y entra al shell de ubuntu
->
-> -i: interactivo
-> 
-> -t: abre la consola
 ```
 docker run -it ubuntu
+```
+
+> ejecutar comandos en un contenedor que se encuentra corriendo
+```
+docker exec <id o nombre> <comando>
+```
+
+> ver imagenes descargadas
+```
+docker images
 ```
