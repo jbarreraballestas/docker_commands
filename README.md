@@ -5,7 +5,7 @@
 docker run hello-world
 ```
 
-> mostrar los contenedores opciones
+> mostrar los contenedores
 > 
 > -a, --all             Mostrar todos los contenedores (por defecto solo muestra los que están corriendo)
 > 
